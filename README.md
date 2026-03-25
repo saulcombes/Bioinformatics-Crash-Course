@@ -16,7 +16,7 @@ All code, notes, and deliverables from Sessions 1–7 are collected in:
 sessions_1_to_7/
 
 
-## Topics covered:
+Topics covered:
 - FASTQ structure and parsing
 - Phred quality scores
 - Basic QC metrics
