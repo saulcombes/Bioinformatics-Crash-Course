@@ -71,10 +71,13 @@ A small Python script that:
 - Reads a SAM file
 - Builds a simple pileup (counts A/C/G/T at each position)
 - Prints positions where a non‑reference base exceeds a threshold
+
 This is a toy variant caller, but it teaches the core logic behind real tools like:
 - bcftools
 - FreeBayes
 - GATK HaplotypeCaller
+
+Please find in SAM_Parser.py in the Session_9 folder
 
 ## What I Learned
 - How pileups represent evidence for or against a variant
