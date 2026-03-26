@@ -12,6 +12,7 @@ Because sequencing data contains:
 - mapping uncertainty
 - PCR artefacts
 - low‑coverage regions
+
 …variant calling is probabilistic, not deterministic.
 
 ## Pileups: The Foundation of Variant Calling
@@ -28,6 +29,7 @@ Variant callers examine:
 - strand orientation
 - depth
 - local alignment context
+
 …and decide whether the evidence supports a variant.
 
 ## Types of Variants
@@ -39,6 +41,7 @@ Insertions or deletions relative to the reference
 Example:
 - Insertion: A → AT
 - Deletion: AT → A
+
 Complex variants
 Small combinations of SNPs + indels
 
@@ -51,6 +54,7 @@ Variant callers must distinguish true variants from:
 - strand bias
 - low coverage
 - PCR duplicates
+
 This is why modern callers use Bayesian models, likelihoods, and heuristics.
 
 ## VCF: The Output Format
