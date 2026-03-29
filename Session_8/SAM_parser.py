@@ -1,4 +1,4 @@
-file = "Basics/test.SAM"
+file = "test.SAM"
 
 def SAM_parser(filepath):
     q = []
