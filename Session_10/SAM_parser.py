@@ -1,5 +1,5 @@
-file = "Basics/test.SAM"
-reference = "Basics/SAMreference.fa"
+file = "test.SAM"
+reference = "SAMreference.fa"
 
 def SAM_parser(filepath):
     q = []
